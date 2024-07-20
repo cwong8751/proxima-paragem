@@ -12,6 +12,7 @@
 		C358D7D42C4C171300C5FAB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C358D7D32C4C171300C5FAB2 /* Assets.xcassets */; };
 		C358D7D72C4C171300C5FAB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C358D7D62C4C171300C5FAB2 /* Preview Assets.xcassets */; };
 		C358D7DE2C4C177600C5FAB2 /* CityChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358D7DD2C4C177600C5FAB2 /* CityChooserView.swift */; };
+		C358D7E02C4C203D00C5FAB2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358D7DF2C4C203D00C5FAB2 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C358D7D32C4C171300C5FAB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C358D7D62C4C171300C5FAB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C358D7DD2C4C177600C5FAB2 /* CityChooserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityChooserView.swift; sourceTree = "<group>"; };
+		C358D7DF2C4C203D00C5FAB2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				C358D7D32C4C171300C5FAB2 /* Assets.xcassets */,
 				C358D7D52C4C171300C5FAB2 /* Preview Content */,
 				C358D7DD2C4C177600C5FAB2 /* CityChooserView.swift */,
+				C358D7DF2C4C203D00C5FAB2 /* SettingsView.swift */,
 			);
 			path = "Proxima paragem";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C358D7D22C4C171200C5FAB2 /* ContentView.swift in Sources */,
+				C358D7E02C4C203D00C5FAB2 /* SettingsView.swift in Sources */,
 				C358D7D02C4C171200C5FAB2 /* Proxima_paragemApp.swift in Sources */,
 				C358D7DE2C4C177600C5FAB2 /* CityChooserView.swift in Sources */,
 			);
