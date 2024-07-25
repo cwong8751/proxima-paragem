@@ -13,6 +13,7 @@
 		C358D7D72C4C171300C5FAB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C358D7D62C4C171300C5FAB2 /* Preview Assets.xcassets */; };
 		C358D7DE2C4C177600C5FAB2 /* CityChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358D7DD2C4C177600C5FAB2 /* CityChooserView.swift */; };
 		C358D7E02C4C203D00C5FAB2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358D7DF2C4C203D00C5FAB2 /* SettingsView.swift */; };
+		C3F871C52C51F12C00055274 /* SearchBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F871C42C51F12C00055274 /* SearchBarStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C358D7D62C4C171300C5FAB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C358D7DD2C4C177600C5FAB2 /* CityChooserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityChooserView.swift; sourceTree = "<group>"; };
 		C358D7DF2C4C203D00C5FAB2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C3F871C42C51F12C00055274 /* SearchBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		C358D7CE2C4C171200C5FAB2 /* Proxima paragem */ = {
 			isa = PBXGroup;
 			children = (
+				C3F871C32C51F11C00055274 /* utils */,
 				C358D7CF2C4C171200C5FAB2 /* Proxima_paragemApp.swift */,
 				C358D7D12C4C171200C5FAB2 /* ContentView.swift */,
 				C358D7D32C4C171300C5FAB2 /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				C358D7D62C4C171300C5FAB2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3F871C32C51F11C00055274 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				C3F871C42C51F12C00055274 /* SearchBarStyle.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				C358D7E02C4C203D00C5FAB2 /* SettingsView.swift in Sources */,
 				C358D7D02C4C171200C5FAB2 /* Proxima_paragemApp.swift in Sources */,
 				C358D7DE2C4C177600C5FAB2 /* CityChooserView.swift in Sources */,
+				C3F871C52C51F12C00055274 /* SearchBarStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
