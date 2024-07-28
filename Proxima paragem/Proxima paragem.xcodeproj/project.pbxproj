@@ -13,6 +13,8 @@
 		C358D7D72C4C171300C5FAB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C358D7D62C4C171300C5FAB2 /* Preview Assets.xcassets */; };
 		C358D7DE2C4C177600C5FAB2 /* CityChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358D7DD2C4C177600C5FAB2 /* CityChooserView.swift */; };
 		C358D7E02C4C203D00C5FAB2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358D7DF2C4C203D00C5FAB2 /* SettingsView.swift */; };
+		C39A91282C56E15F0003E007 /* macaoBusInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A91272C56E15F0003E007 /* macaoBusInfo.swift */; };
+		C39A912B2C56E7850003E007 /* routes.json in Resources */ = {isa = PBXBuildFile; fileRef = C39A912A2C56E7850003E007 /* routes.json */; };
 		C3F871C52C51F12C00055274 /* SearchBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F871C42C51F12C00055274 /* SearchBarStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,8 @@
 		C358D7D62C4C171300C5FAB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C358D7DD2C4C177600C5FAB2 /* CityChooserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityChooserView.swift; sourceTree = "<group>"; };
 		C358D7DF2C4C203D00C5FAB2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C39A91272C56E15F0003E007 /* macaoBusInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macaoBusInfo.swift; sourceTree = "<group>"; };
+		C39A912A2C56E7850003E007 /* routes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = routes.json; sourceTree = "<group>"; };
 		C3F871C42C51F12C00055274 /* SearchBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +61,8 @@
 		C358D7CE2C4C171200C5FAB2 /* Proxima paragem */ = {
 			isa = PBXGroup;
 			children = (
+				C39A91262C56E14E0003E007 /* models */,
+				C39A91222C56E0930003E007 /* data */,
 				C3F871C32C51F11C00055274 /* utils */,
 				C358D7CF2C4C171200C5FAB2 /* Proxima_paragemApp.swift */,
 				C358D7D12C4C171200C5FAB2 /* ContentView.swift */,
@@ -74,6 +80,30 @@
 				C358D7D62C4C171300C5FAB2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C39A91222C56E0930003E007 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C39A91232C56E09A0003E007 /* macao */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		C39A91232C56E09A0003E007 /* macao */ = {
+			isa = PBXGroup;
+			children = (
+				C39A912A2C56E7850003E007 /* routes.json */,
+			);
+			path = macao;
+			sourceTree = "<group>";
+		};
+		C39A91262C56E14E0003E007 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C39A91272C56E15F0003E007 /* macaoBusInfo.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 		C3F871C32C51F11C00055274 /* utils */ = {
@@ -142,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39A912B2C56E7850003E007 /* routes.json in Resources */,
 				C358D7D72C4C171300C5FAB2 /* Preview Assets.xcassets in Resources */,
 				C358D7D42C4C171300C5FAB2 /* Assets.xcassets in Resources */,
 			);
@@ -156,6 +187,7 @@
 			files = (
 				C358D7D22C4C171200C5FAB2 /* ContentView.swift in Sources */,
 				C358D7E02C4C203D00C5FAB2 /* SettingsView.swift in Sources */,
+				C39A91282C56E15F0003E007 /* macaoBusInfo.swift in Sources */,
 				C358D7D02C4C171200C5FAB2 /* Proxima_paragemApp.swift in Sources */,
 				C358D7DE2C4C177600C5FAB2 /* CityChooserView.swift in Sources */,
 				C3F871C52C51F12C00055274 /* SearchBarStyle.swift in Sources */,
